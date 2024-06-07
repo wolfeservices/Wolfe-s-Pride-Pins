@@ -1,0 +1,4401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &394670950027048712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5095757922781547411}
+  - component: {fileID: 4922915530756908386}
+  - component: {fileID: 6227648271231340054}
+  - component: {fileID: 4135765256578526509}
+  - component: {fileID: 1078660469682070860}
+  - component: {fileID: 6941887946728647148}
+  - component: {fileID: 52886572906446032}
+  - component: {fileID: 1993154595142487515}
+  m_Layer: 0
+  m_Name: All In One
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5095757922781547411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394670950027048712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 8356260620214883857}
+  - {fileID: 5780350126803374465}
+  - {fileID: 7721669368940680083}
+  - {fileID: 555370362879942272}
+  - {fileID: 4144709770276829215}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4922915530756908386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394670950027048712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4043009260060409856
+  references:
+    version: 2
+    RefIds:
+    - rid: 4043009260060409856
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 1
+        propBone: {fileID: 394670950027048712}
+        linkTo:
+        - useBone: 1
+          bone: 8
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 1
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+--- !u!114 &6227648271231340054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394670950027048712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4043009260060409857
+  references:
+    version: 2
+    RefIds:
+    - rid: 4043009260060409857
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Wolfe's Pride Pin/Enable
+        state:
+          actions:
+          - rid: 4043009260060409858
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: eb745a70f1b4365498af5518a1852c02|Assets/Wolfe's Pride Pins/Textures/lever.png
+          objRef: {fileID: 2800000, guid: eb745a70f1b4365498af5518a1852c02, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 4043009260060409858
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 394670950027048712}
+        mode: 0
+--- !u!114 &4135765256578526509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394670950027048712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4043009260060409859
+  references:
+    version: 2
+    RefIds:
+    - rid: 4043009260060409859
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Wolfe's Pride Pin/Style
+        state:
+          actions:
+          - rid: 4043009260060409860
+          - rid: 4043009260060409861
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a6008e872b15f6b42b0ebe8d2cd875fa|Assets/Wolfe's Pride Pins/Textures/style.png
+          objRef: {fileID: 2800000, guid: a6008e872b15f6b42b0ebe8d2cd875fa, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 4043009260060409860
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 394670950027048712}
+        mode: 0
+    - rid: 4043009260060409861
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - rid: 4043009260060409862
+        - state:
+            actions:
+            - rid: 4043009260060409863
+        - state:
+            actions:
+            - rid: 4043009260060409864
+        - state:
+            actions:
+            - rid: 4043009260060409865
+        - state:
+            actions:
+            - rid: 4043009260060409866
+    - rid: 4043009260060409862
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 7935685902488933431}
+        mode: 0
+    - rid: 4043009260060409863
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 1536020402748502696}
+        mode: 0
+    - rid: 4043009260060409864
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 2955698076583416704}
+        mode: 0
+    - rid: 4043009260060409865
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 1921058483914791336}
+        mode: 0
+    - rid: 4043009260060409866
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 590428631991291299}
+        mode: 0
+--- !u!114 &1078660469682070860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394670950027048712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4043009293657833498
+  references:
+    version: 2
+    RefIds:
+    - rid: 4043009293657833498
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Wolfe's Pride Pin/Flag 1
+        state:
+          actions:
+          - rid: 4043009293657833499
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a6a403e72a728bc4e8f1828f6836b266|Assets/Wolfe's Pride Pins/Textures/1.png
+          objRef: {fileID: 2800000, guid: a6a403e72a728bc4e8f1828f6836b266, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 4043009293657833499
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - rid: 4043009293657833500
+            - rid: 4043009293657833525
+            - rid: 4043009293657833550
+            - rid: 4043009293657833551
+            - rid: 4043009293657833552
+        - state:
+            actions:
+            - rid: 4043009293657833501
+            - rid: 4043009293657833526
+            - rid: 4043009293657833553
+            - rid: 4043009293657833554
+            - rid: 4043009293657833555
+        - state:
+            actions:
+            - rid: 4043009293657833502
+            - rid: 4043009293657833527
+            - rid: 5765507093379940352
+            - rid: 5765507093379940353
+            - rid: 5765507093379940354
+        - state:
+            actions:
+            - rid: 4043009293657833503
+            - rid: 4043009293657833528
+            - rid: 5765507093379940355
+            - rid: 5765507093379940356
+            - rid: 5765507093379940357
+        - state:
+            actions:
+            - rid: 4043009293657833504
+            - rid: 4043009293657833529
+            - rid: 5765507093379940358
+            - rid: 5765507093379940359
+            - rid: 5765507093379940360
+        - state:
+            actions:
+            - rid: 4043009293657833505
+            - rid: 4043009293657833530
+            - rid: 5765507093379940361
+            - rid: 5765507093379940362
+            - rid: 5765507093379940363
+        - state:
+            actions:
+            - rid: 4043009293657833506
+            - rid: 4043009293657833531
+            - rid: 5765507093379940364
+            - rid: 5765507093379940365
+            - rid: 5765507093379940366
+        - state:
+            actions:
+            - rid: 4043009293657833507
+            - rid: 4043009293657833532
+            - rid: 5765507093379940367
+            - rid: 5765507093379940368
+            - rid: 5765507093379940369
+        - state:
+            actions:
+            - rid: 4043009293657833508
+            - rid: 4043009293657833533
+            - rid: 5765507093379940370
+            - rid: 5765507093379940371
+            - rid: 5765507093379940372
+        - state:
+            actions:
+            - rid: 4043009293657833509
+            - rid: 4043009293657833534
+            - rid: 5765507093379940373
+            - rid: 5765507093379940374
+            - rid: 5765507093379940375
+        - state:
+            actions:
+            - rid: 4043009293657833510
+            - rid: 4043009293657833535
+            - rid: 5765507093379940376
+            - rid: 5765507093379940377
+            - rid: 5765507093379940378
+        - state:
+            actions:
+            - rid: 4043009293657833512
+            - rid: 4043009293657833536
+            - rid: 5765507093379940379
+            - rid: 5765507093379940380
+            - rid: 5765507093379940381
+        - state:
+            actions:
+            - rid: 4043009293657833513
+            - rid: 4043009293657833537
+            - rid: 5765507093379940382
+            - rid: 5765507093379940383
+            - rid: 5765507093379940384
+        - state:
+            actions:
+            - rid: 4043009293657833514
+            - rid: 4043009293657833538
+            - rid: 5765507093379940385
+            - rid: 5765507093379940386
+            - rid: 5765507093379940387
+        - state:
+            actions:
+            - rid: 4043009293657833515
+            - rid: 4043009293657833539
+            - rid: 5765507093379940388
+            - rid: 5765507093379940389
+            - rid: 5765507093379940390
+        - state:
+            actions:
+            - rid: 4043009293657833516
+            - rid: 4043009293657833540
+            - rid: 5765507093379940391
+            - rid: 5765507093379940392
+            - rid: 5765507093379940393
+        - state:
+            actions:
+            - rid: 4043009293657833517
+            - rid: 4043009293657833541
+            - rid: 5765507093379940394
+            - rid: 5765507093379940395
+            - rid: 5765507093379940396
+        - state:
+            actions:
+            - rid: 4043009293657833518
+            - rid: 4043009293657833542
+            - rid: 5765507093379940397
+            - rid: 5765507093379940398
+            - rid: 5765507093379940399
+        - state:
+            actions:
+            - rid: 4043009293657833519
+            - rid: 4043009293657833543
+            - rid: 5765507093379940400
+            - rid: 5765507093379940401
+            - rid: 5765507093379940402
+        - state:
+            actions:
+            - rid: 4043009293657833520
+            - rid: 4043009293657833544
+            - rid: 5765507093379940403
+            - rid: 5765507093379940404
+            - rid: 5765507093379940405
+        - state:
+            actions:
+            - rid: 4043009293657833521
+            - rid: 4043009293657833545
+            - rid: 5765507093379940406
+            - rid: 5765507093379940407
+            - rid: 5765507093379940408
+        - state:
+            actions:
+            - rid: 4043009293657833522
+            - rid: 4043009293657833546
+            - rid: 5765507093379940409
+            - rid: 5765507093379940410
+            - rid: 5765507093379940411
+        - state:
+            actions:
+            - rid: 4043009293657833523
+            - rid: 4043009293657833547
+            - rid: 5765507093379940412
+            - rid: 5765507093379940413
+            - rid: 5765507093379940414
+        - state:
+            actions:
+            - rid: 4043009293657833524
+            - rid: 4043009293657833548
+            - rid: 5765507093379940415
+            - rid: 5765507093379940416
+            - rid: 5765507093379940417
+    - rid: 4043009293657833500
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3f56a721b8fff874dbb9943cb14d6a2c|Assets/Wolfe's Pride Pins/Materials/Interlock/Agender.mat
+          objRef: {fileID: 2100000, guid: 3f56a721b8fff874dbb9943cb14d6a2c, type: 2}
+    - rid: 4043009293657833501
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: df874aae8a715f143884a2a384ffe80d|Assets/Wolfe's Pride Pins/Materials/Interlock/Ally.mat
+          objRef: {fileID: 2100000, guid: df874aae8a715f143884a2a384ffe80d, type: 2}
+    - rid: 4043009293657833502
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9df426eaf343f6c45ab402e29ff8be49|Assets/Wolfe's Pride Pins/Materials/Interlock/Aroace.mat
+          objRef: {fileID: 2100000, guid: 9df426eaf343f6c45ab402e29ff8be49, type: 2}
+    - rid: 4043009293657833503
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2ee7bcdc8a4b96e4fa56a55394b6d579|Assets/Wolfe's Pride Pins/Materials/Interlock/Aromantic.mat
+          objRef: {fileID: 2100000, guid: 2ee7bcdc8a4b96e4fa56a55394b6d579, type: 2}
+    - rid: 4043009293657833504
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4dbcf46dab0b4354bbd404eaa7662ded|Assets/Wolfe's Pride Pins/Materials/Interlock/Asexual.mat
+          objRef: {fileID: 2100000, guid: 4dbcf46dab0b4354bbd404eaa7662ded, type: 2}
+    - rid: 4043009293657833505
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1a2edcebc03e06041ad1a68c2682e5c2|Assets/Wolfe's Pride Pins/Materials/Interlock/Bisexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 1a2edcebc03e06041ad1a68c2682e5c2, type: 2}
+    - rid: 4043009293657833506
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3c63e771b4611864da25fd91d49f6343|Assets/Wolfe's Pride Pins/Materials/Interlock/Butch
+            Les.mat
+          objRef: {fileID: 2100000, guid: 3c63e771b4611864da25fd91d49f6343, type: 2}
+    - rid: 4043009293657833507
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 40d934475d1a30d4f95aa7ca966a390d|Assets/Wolfe's Pride Pins/Materials/Interlock/Demiromantic
+            flag.mat
+          objRef: {fileID: 2100000, guid: 40d934475d1a30d4f95aa7ca966a390d, type: 2}
+    - rid: 4043009293657833508
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ed41a6c93600eb24c988fdbf16b998c3|Assets/Wolfe's Pride Pins/Materials/Interlock/Demisexual.mat
+          objRef: {fileID: 2100000, guid: ed41a6c93600eb24c988fdbf16b998c3, type: 2}
+    - rid: 4043009293657833509
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2f66d51610d236a4b8e4850648530087|Assets/Wolfe's Pride Pins/Materials/Interlock/Gay
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 2f66d51610d236a4b8e4850648530087, type: 2}
+    - rid: 4043009293657833510
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04a0ccb2cb0c1d84e845ee52c4c9fe93|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderfluid.mat
+          objRef: {fileID: 2100000, guid: 04a0ccb2cb0c1d84e845ee52c4c9fe93, type: 2}
+    - rid: 4043009293657833512
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04b088655788b434cbce93acec600d8a|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderqueer.mat
+          objRef: {fileID: 2100000, guid: 04b088655788b434cbce93acec600d8a, type: 2}
+    - rid: 4043009293657833513
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 66496a04481be0544842054e758e5ea6|Assets/Wolfe's Pride Pins/Materials/Interlock/IIProgress
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 66496a04481be0544842054e758e5ea6, type: 2}
+    - rid: 4043009293657833514
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9d3fd105ebb62b24f9ce9c0694a1e339|Assets/Wolfe's Pride Pins/Materials/Interlock/Intersex.mat
+          objRef: {fileID: 2100000, guid: 9d3fd105ebb62b24f9ce9c0694a1e339, type: 2}
+    - rid: 4043009293657833515
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3a63435241414c44f8ac4f959efa38a5|Assets/Wolfe's Pride Pins/Materials/Interlock/Les
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 3a63435241414c44f8ac4f959efa38a5, type: 2}
+    - rid: 4043009293657833516
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e7d43bcfae5b4e4409c1f1c8ac9a1cd2|Assets/Wolfe's Pride Pins/Materials/Interlock/NonBinary
+            Flag.mat
+          objRef: {fileID: 2100000, guid: e7d43bcfae5b4e4409c1f1c8ac9a1cd2, type: 2}
+    - rid: 4043009293657833517
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bd5e34f1a1fc1e643a32374295b8c1c9|Assets/Wolfe's Pride Pins/Materials/Interlock/Pansexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: bd5e34f1a1fc1e643a32374295b8c1c9, type: 2}
+    - rid: 4043009293657833518
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: dd825fe6c38c686448c962a9dc3ecaf1|Assets/Wolfe's Pride Pins/Materials/Interlock/Phil
+            Pride.mat
+          objRef: {fileID: 2100000, guid: dd825fe6c38c686448c962a9dc3ecaf1, type: 2}
+    - rid: 4043009293657833519
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7c00aa70997f95d4b84cbed3e73817b5|Assets/Wolfe's Pride Pins/Materials/Interlock/Polyamory
+            pride.mat
+          objRef: {fileID: 2100000, guid: 7c00aa70997f95d4b84cbed3e73817b5, type: 2}
+    - rid: 4043009293657833520
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6794ae1564accdb438b4266cfe453e43|Assets/Wolfe's Pride Pins/Materials/Interlock/Polysexual.mat
+          objRef: {fileID: 2100000, guid: 6794ae1564accdb438b4266cfe453e43, type: 2}
+    - rid: 4043009293657833521
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e9e617867a6b13442b2b17216150727d|Assets/Wolfe's Pride Pins/Materials/Interlock/Progress
+            Pride.mat
+          objRef: {fileID: 2100000, guid: e9e617867a6b13442b2b17216150727d, type: 2}
+    - rid: 4043009293657833522
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 148e2b79508482d47994c1798ed366ab|Assets/Wolfe's Pride Pins/Materials/Interlock/Rainbow
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 148e2b79508482d47994c1798ed366ab, type: 2}
+    - rid: 4043009293657833523
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: affc9ef4dc14e4544be8bd08fd50ed97|Assets/Wolfe's Pride Pins/Materials/Interlock/Trans
+            Flag.mat
+          objRef: {fileID: 2100000, guid: affc9ef4dc14e4544be8bd08fd50ed97, type: 2}
+    - rid: 4043009293657833524
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: febb77fe7512f134eb275eb4c87f21a1|Assets/Wolfe's Pride Pins/Materials/Interlock/TwoSpirit.mat
+          objRef: {fileID: 2100000, guid: febb77fe7512f134eb275eb4c87f21a1, type: 2}
+    - rid: 4043009293657833525
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3f56a721b8fff874dbb9943cb14d6a2c|Assets/Wolfe's Pride Pins/Materials/Interlock/Agender.mat
+          objRef: {fileID: 2100000, guid: 3f56a721b8fff874dbb9943cb14d6a2c, type: 2}
+    - rid: 4043009293657833526
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: df874aae8a715f143884a2a384ffe80d|Assets/Wolfe's Pride Pins/Materials/Interlock/Ally.mat
+          objRef: {fileID: 2100000, guid: df874aae8a715f143884a2a384ffe80d, type: 2}
+    - rid: 4043009293657833527
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9df426eaf343f6c45ab402e29ff8be49|Assets/Wolfe's Pride Pins/Materials/Interlock/Aroace.mat
+          objRef: {fileID: 2100000, guid: 9df426eaf343f6c45ab402e29ff8be49, type: 2}
+    - rid: 4043009293657833528
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2ee7bcdc8a4b96e4fa56a55394b6d579|Assets/Wolfe's Pride Pins/Materials/Interlock/Aromantic.mat
+          objRef: {fileID: 2100000, guid: 2ee7bcdc8a4b96e4fa56a55394b6d579, type: 2}
+    - rid: 4043009293657833529
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4dbcf46dab0b4354bbd404eaa7662ded|Assets/Wolfe's Pride Pins/Materials/Interlock/Asexual.mat
+          objRef: {fileID: 2100000, guid: 4dbcf46dab0b4354bbd404eaa7662ded, type: 2}
+    - rid: 4043009293657833530
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1a2edcebc03e06041ad1a68c2682e5c2|Assets/Wolfe's Pride Pins/Materials/Interlock/Bisexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 1a2edcebc03e06041ad1a68c2682e5c2, type: 2}
+    - rid: 4043009293657833531
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3c63e771b4611864da25fd91d49f6343|Assets/Wolfe's Pride Pins/Materials/Interlock/Butch
+            Les.mat
+          objRef: {fileID: 2100000, guid: 3c63e771b4611864da25fd91d49f6343, type: 2}
+    - rid: 4043009293657833532
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 40d934475d1a30d4f95aa7ca966a390d|Assets/Wolfe's Pride Pins/Materials/Interlock/Demiromantic
+            flag.mat
+          objRef: {fileID: 2100000, guid: 40d934475d1a30d4f95aa7ca966a390d, type: 2}
+    - rid: 4043009293657833533
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ed41a6c93600eb24c988fdbf16b998c3|Assets/Wolfe's Pride Pins/Materials/Interlock/Demisexual.mat
+          objRef: {fileID: 2100000, guid: ed41a6c93600eb24c988fdbf16b998c3, type: 2}
+    - rid: 4043009293657833534
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2f66d51610d236a4b8e4850648530087|Assets/Wolfe's Pride Pins/Materials/Interlock/Gay
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 2f66d51610d236a4b8e4850648530087, type: 2}
+    - rid: 4043009293657833535
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04a0ccb2cb0c1d84e845ee52c4c9fe93|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderfluid.mat
+          objRef: {fileID: 2100000, guid: 04a0ccb2cb0c1d84e845ee52c4c9fe93, type: 2}
+    - rid: 4043009293657833536
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04b088655788b434cbce93acec600d8a|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderqueer.mat
+          objRef: {fileID: 2100000, guid: 04b088655788b434cbce93acec600d8a, type: 2}
+    - rid: 4043009293657833537
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 66496a04481be0544842054e758e5ea6|Assets/Wolfe's Pride Pins/Materials/Interlock/IIProgress
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 66496a04481be0544842054e758e5ea6, type: 2}
+    - rid: 4043009293657833538
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9d3fd105ebb62b24f9ce9c0694a1e339|Assets/Wolfe's Pride Pins/Materials/Interlock/Intersex.mat
+          objRef: {fileID: 2100000, guid: 9d3fd105ebb62b24f9ce9c0694a1e339, type: 2}
+    - rid: 4043009293657833539
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bbf4b4e0a324f1c46becbb3134b31709|Assets/Wolfe's Pride Pins/Materials/Hexa/Lesbian
+            Flag.mat
+          objRef: {fileID: 2100000, guid: bbf4b4e0a324f1c46becbb3134b31709, type: 2}
+    - rid: 4043009293657833540
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e7d43bcfae5b4e4409c1f1c8ac9a1cd2|Assets/Wolfe's Pride Pins/Materials/Interlock/NonBinary
+            Flag.mat
+          objRef: {fileID: 2100000, guid: e7d43bcfae5b4e4409c1f1c8ac9a1cd2, type: 2}
+    - rid: 4043009293657833541
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bd5e34f1a1fc1e643a32374295b8c1c9|Assets/Wolfe's Pride Pins/Materials/Interlock/Pansexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: bd5e34f1a1fc1e643a32374295b8c1c9, type: 2}
+    - rid: 4043009293657833542
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: dd825fe6c38c686448c962a9dc3ecaf1|Assets/Wolfe's Pride Pins/Materials/Interlock/Phil
+            Pride.mat
+          objRef: {fileID: 2100000, guid: dd825fe6c38c686448c962a9dc3ecaf1, type: 2}
+    - rid: 4043009293657833543
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7c00aa70997f95d4b84cbed3e73817b5|Assets/Wolfe's Pride Pins/Materials/Interlock/Polyamory
+            pride.mat
+          objRef: {fileID: 2100000, guid: 7c00aa70997f95d4b84cbed3e73817b5, type: 2}
+    - rid: 4043009293657833544
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6794ae1564accdb438b4266cfe453e43|Assets/Wolfe's Pride Pins/Materials/Interlock/Polysexual.mat
+          objRef: {fileID: 2100000, guid: 6794ae1564accdb438b4266cfe453e43, type: 2}
+    - rid: 4043009293657833545
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e9e617867a6b13442b2b17216150727d|Assets/Wolfe's Pride Pins/Materials/Interlock/Progress
+            Pride.mat
+          objRef: {fileID: 2100000, guid: e9e617867a6b13442b2b17216150727d, type: 2}
+    - rid: 4043009293657833546
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 148e2b79508482d47994c1798ed366ab|Assets/Wolfe's Pride Pins/Materials/Interlock/Rainbow
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 148e2b79508482d47994c1798ed366ab, type: 2}
+    - rid: 4043009293657833547
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: affc9ef4dc14e4544be8bd08fd50ed97|Assets/Wolfe's Pride Pins/Materials/Interlock/Trans
+            Flag.mat
+          objRef: {fileID: 2100000, guid: affc9ef4dc14e4544be8bd08fd50ed97, type: 2}
+    - rid: 4043009293657833548
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: febb77fe7512f134eb275eb4c87f21a1|Assets/Wolfe's Pride Pins/Materials/Interlock/TwoSpirit.mat
+          objRef: {fileID: 2100000, guid: febb77fe7512f134eb275eb4c87f21a1, type: 2}
+    - rid: 4043009293657833550
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9fa6e9aeb1b7a704c84d2ff716046134|Assets/Wolfe's Pride Pins/Materials/Hexa/Agender.mat
+          objRef: {fileID: 2100000, guid: 9fa6e9aeb1b7a704c84d2ff716046134, type: 2}
+    - rid: 4043009293657833551
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7a05deba3f592034fbe40457cacc4bc9|Assets/Wolfe's Pride Pins/Materials/Rect/Agender.mat
+          objRef: {fileID: 2100000, guid: 7a05deba3f592034fbe40457cacc4bc9, type: 2}
+    - rid: 4043009293657833552
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: cb60f60660c72df4181924782650a505|Assets/Wolfe's Pride Pins/Materials/Round/Agender.mat
+          objRef: {fileID: 2100000, guid: cb60f60660c72df4181924782650a505, type: 2}
+    - rid: 4043009293657833553
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 40136f0057877d8499a05065515793b8|Assets/Wolfe's Pride Pins/Materials/Hexa/Ally.mat
+          objRef: {fileID: 2100000, guid: 40136f0057877d8499a05065515793b8, type: 2}
+    - rid: 4043009293657833554
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: df874aae8a715f143884a2a384ffe80d|Assets/Wolfe's Pride Pins/Materials/Interlock/Ally.mat
+          objRef: {fileID: 2100000, guid: df874aae8a715f143884a2a384ffe80d, type: 2}
+    - rid: 4043009293657833555
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4ade5949ff3985348ae098ecda336435|Assets/Wolfe's Pride Pins/Materials/Rect/Ally.mat
+          objRef: {fileID: 2100000, guid: 4ade5949ff3985348ae098ecda336435, type: 2}
+    - rid: 5765507093379940352
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 42dfde6a5cf45ee4b873222a19e335ae|Assets/Wolfe's Pride Pins/Materials/Hexa/AroAce.mat
+          objRef: {fileID: 2100000, guid: 42dfde6a5cf45ee4b873222a19e335ae, type: 2}
+    - rid: 5765507093379940353
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: fdd07f69b9eccf44a9fbb1a456f8abca|Assets/Wolfe's Pride Pins/Materials/Rect/AroAce.mat
+          objRef: {fileID: 2100000, guid: fdd07f69b9eccf44a9fbb1a456f8abca, type: 2}
+    - rid: 5765507093379940354
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 76ab056d8476cf74a9107116f8117246|Assets/Wolfe's Pride Pins/Materials/Round/AroAce.mat
+          objRef: {fileID: 2100000, guid: 76ab056d8476cf74a9107116f8117246, type: 2}
+    - rid: 5765507093379940355
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 262c8d8ffbc22eb42bd0f0598acb00ce|Assets/Wolfe's Pride Pins/Materials/Hexa/Aromantic
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 262c8d8ffbc22eb42bd0f0598acb00ce, type: 2}
+    - rid: 5765507093379940356
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e3b9ea3e684bada4fb9697d86c4ab362|Assets/Wolfe's Pride Pins/Materials/Rect/Aromantic.mat
+          objRef: {fileID: 2100000, guid: e3b9ea3e684bada4fb9697d86c4ab362, type: 2}
+    - rid: 5765507093379940357
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: f1aa5a4a09b477f42a285a6d147920a9|Assets/Wolfe's Pride Pins/Materials/Round/Aromantic.mat
+          objRef: {fileID: 2100000, guid: f1aa5a4a09b477f42a285a6d147920a9, type: 2}
+    - rid: 5765507093379940358
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 59c9ade27dc50f945aaa16bfd59ee59c|Assets/Wolfe's Pride Pins/Materials/Hexa/Asexual.mat
+          objRef: {fileID: 2100000, guid: 59c9ade27dc50f945aaa16bfd59ee59c, type: 2}
+    - rid: 5765507093379940359
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 495d81c0ca2204e42a54d2dfb47a69cc|Assets/Wolfe's Pride Pins/Materials/Rect/Asexual.mat
+          objRef: {fileID: 2100000, guid: 495d81c0ca2204e42a54d2dfb47a69cc, type: 2}
+    - rid: 5765507093379940360
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: be1b47dd0cb3f3e40af828534357a870|Assets/Wolfe's Pride Pins/Materials/Round/Asexual.mat
+          objRef: {fileID: 2100000, guid: be1b47dd0cb3f3e40af828534357a870, type: 2}
+    - rid: 5765507093379940361
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e358fdace832f3940a9c883ecca015e1|Assets/Wolfe's Pride Pins/Materials/Hexa/Bisexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: e358fdace832f3940a9c883ecca015e1, type: 2}
+    - rid: 5765507093379940362
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e7b722d5f96f79b42bc253e6715d305d|Assets/Wolfe's Pride Pins/Materials/Rect/Bisexual
+            Falg.mat
+          objRef: {fileID: 2100000, guid: e7b722d5f96f79b42bc253e6715d305d, type: 2}
+    - rid: 5765507093379940363
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ae144df444925d241b066b2fcac09282|Assets/Wolfe's Pride Pins/Materials/Round/Bisexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: ae144df444925d241b066b2fcac09282, type: 2}
+    - rid: 5765507093379940364
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b4fb3b144f94f194aa17d157f0878102|Assets/Wolfe's Pride Pins/Materials/Hexa/Butch
+            Les.mat
+          objRef: {fileID: 2100000, guid: b4fb3b144f94f194aa17d157f0878102, type: 2}
+    - rid: 5765507093379940365
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b2f8bef7ed3352a43a2cd0f9ec38424a|Assets/Wolfe's Pride Pins/Materials/Rect/Butch
+            Les.mat
+          objRef: {fileID: 2100000, guid: b2f8bef7ed3352a43a2cd0f9ec38424a, type: 2}
+    - rid: 5765507093379940366
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 14f27d69eec9bf74ab6215d9ef41fcb8|Assets/Wolfe's Pride Pins/Materials/Round/Butch
+            Les.mat
+          objRef: {fileID: 2100000, guid: 14f27d69eec9bf74ab6215d9ef41fcb8, type: 2}
+    - rid: 5765507093379940367
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 78b09f68789452f4181d30aaff0d5aee|Assets/Wolfe's Pride Pins/Materials/Hexa/Demiromantic
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 78b09f68789452f4181d30aaff0d5aee, type: 2}
+    - rid: 5765507093379940368
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 19a8c087ca4923a4480451dcc41cff5e|Assets/Wolfe's Pride Pins/Materials/Rect/Demiromantic.mat
+          objRef: {fileID: 2100000, guid: 19a8c087ca4923a4480451dcc41cff5e, type: 2}
+    - rid: 5765507093379940369
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7f9a9fc4928cbbe44acbcd3aa18a69f5|Assets/Wolfe's Pride Pins/Materials/Round/Demiromantic.mat
+          objRef: {fileID: 2100000, guid: 7f9a9fc4928cbbe44acbcd3aa18a69f5, type: 2}
+    - rid: 5765507093379940370
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 5a976c7111f3c9d4c9271232f613146a|Assets/Wolfe's Pride Pins/Materials/Hexa/Demisexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 5a976c7111f3c9d4c9271232f613146a, type: 2}
+    - rid: 5765507093379940371
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 93b01631986f6e04eac967ad4c29545a|Assets/Wolfe's Pride Pins/Materials/Rect/Demisexual.mat
+          objRef: {fileID: 2100000, guid: 93b01631986f6e04eac967ad4c29545a, type: 2}
+    - rid: 5765507093379940372
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: dee9f68b2fd1fd54eb978d0ddbc810e4|Assets/Wolfe's Pride Pins/Materials/Round/Demisexual.mat
+          objRef: {fileID: 2100000, guid: dee9f68b2fd1fd54eb978d0ddbc810e4, type: 2}
+    - rid: 5765507093379940373
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4e55246f16c2f29479033dbe86e93640|Assets/Wolfe's Pride Pins/Materials/Hexa/Gay
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 4e55246f16c2f29479033dbe86e93640, type: 2}
+    - rid: 5765507093379940374
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2440c8d85ccef54448744787653a8af4|Assets/Wolfe's Pride Pins/Materials/Rect/Gay
+            FLag.mat
+          objRef: {fileID: 2100000, guid: 2440c8d85ccef54448744787653a8af4, type: 2}
+    - rid: 5765507093379940375
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: f88e9d45208f6eb479b972864c36ca24|Assets/Wolfe's Pride Pins/Materials/Round/Gay
+            Flag.mat
+          objRef: {fileID: 2100000, guid: f88e9d45208f6eb479b972864c36ca24, type: 2}
+    - rid: 5765507093379940376
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2e1e80c7e28d5f0449e2c413d3b35f1c|Assets/Wolfe's Pride Pins/Materials/Hexa/Genderfluid.mat
+          objRef: {fileID: 2100000, guid: 2e1e80c7e28d5f0449e2c413d3b35f1c, type: 2}
+    - rid: 5765507093379940377
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9624163acb7092744974c4402fd4589c|Assets/Wolfe's Pride Pins/Materials/Rect/Genderfluid.mat
+          objRef: {fileID: 2100000, guid: 9624163acb7092744974c4402fd4589c, type: 2}
+    - rid: 5765507093379940378
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a2b70d9b81b853545853ac75445b09a5|Assets/Wolfe's Pride Pins/Materials/Round/Genderfluid.mat
+          objRef: {fileID: 2100000, guid: a2b70d9b81b853545853ac75445b09a5, type: 2}
+    - rid: 5765507093379940379
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: dac174f9bb1de86429ff47312e66c2a6|Assets/Wolfe's Pride Pins/Materials/Hexa/Genderqueer.mat
+          objRef: {fileID: 2100000, guid: dac174f9bb1de86429ff47312e66c2a6, type: 2}
+    - rid: 5765507093379940380
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a8b5a838464393842ab83dc47938e8cf|Assets/Wolfe's Pride Pins/Materials/Rect/Genderqueer.mat
+          objRef: {fileID: 2100000, guid: a8b5a838464393842ab83dc47938e8cf, type: 2}
+    - rid: 5765507093379940381
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 02af842173223214396da346b4067701|Assets/Wolfe's Pride Pins/Materials/Round/Genderqueer.mat
+          objRef: {fileID: 2100000, guid: 02af842173223214396da346b4067701, type: 2}
+    - rid: 5765507093379940382
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b65069bcbab2d8844b82cb06ad1179b9|Assets/Wolfe's Pride Pins/Materials/Hexa/IIProgress
+            Flag.mat
+          objRef: {fileID: 2100000, guid: b65069bcbab2d8844b82cb06ad1179b9, type: 2}
+    - rid: 5765507093379940383
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 630dd3995e1e14e4abfad22e0ec4f868|Assets/Wolfe's Pride Pins/Materials/Rect/IIProgress
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 630dd3995e1e14e4abfad22e0ec4f868, type: 2}
+    - rid: 5765507093379940384
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 48aff266f3c9a8b48a8a6c101916fce9|Assets/Wolfe's Pride Pins/Materials/Round/IIProgress
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 48aff266f3c9a8b48a8a6c101916fce9, type: 2}
+    - rid: 5765507093379940385
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4dafa86acd50b654e9c00c069ba30da2|Assets/Wolfe's Pride Pins/Materials/Hexa/Intersex.mat
+          objRef: {fileID: 2100000, guid: 4dafa86acd50b654e9c00c069ba30da2, type: 2}
+    - rid: 5765507093379940386
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: aa050b7a735ac6c4b9b8b61f1d43335b|Assets/Wolfe's Pride Pins/Materials/Rect/intersex.mat
+          objRef: {fileID: 2100000, guid: aa050b7a735ac6c4b9b8b61f1d43335b, type: 2}
+    - rid: 5765507093379940387
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 322c476463e782d45a129a96132afc94|Assets/Wolfe's Pride Pins/Materials/Round/Intersex.mat
+          objRef: {fileID: 2100000, guid: 322c476463e782d45a129a96132afc94, type: 2}
+    - rid: 5765507093379940388
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+    - rid: 5765507093379940389
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: d29228b0aaffe6743aa6c81e845b0975|Assets/Wolfe's Pride Pins/Materials/Rect/Les
+            Flag.mat
+          objRef: {fileID: 2100000, guid: d29228b0aaffe6743aa6c81e845b0975, type: 2}
+    - rid: 5765507093379940390
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e7cd9f31c9719a44dbb0c0234725747b|Assets/Wolfe's Pride Pins/Materials/Round/Les
+            Flag.mat
+          objRef: {fileID: 2100000, guid: e7cd9f31c9719a44dbb0c0234725747b, type: 2}
+    - rid: 5765507093379940391
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 79f666f334ab8f6459b658c7c2eb226a|Assets/Wolfe's Pride Pins/Materials/Hexa/NonBinary.mat
+          objRef: {fileID: 2100000, guid: 79f666f334ab8f6459b658c7c2eb226a, type: 2}
+    - rid: 5765507093379940392
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 5e8255a74539ae048ba8c47033dc8a07|Assets/Wolfe's Pride Pins/Materials/Rect/Nonbinary.mat
+          objRef: {fileID: 2100000, guid: 5e8255a74539ae048ba8c47033dc8a07, type: 2}
+    - rid: 5765507093379940393
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: f16461f0b6cbf0a4cb06062bb071e689|Assets/Wolfe's Pride Pins/Materials/Round/Nonbinary.mat
+          objRef: {fileID: 2100000, guid: f16461f0b6cbf0a4cb06062bb071e689, type: 2}
+    - rid: 5765507093379940394
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3fdb5da799d57094097bd441ee67b499|Assets/Wolfe's Pride Pins/Materials/Hexa/Pansexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 3fdb5da799d57094097bd441ee67b499, type: 2}
+    - rid: 5765507093379940395
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: faf2098ad45bc484390beb7752eb136e|Assets/Wolfe's Pride Pins/Materials/Rect/Pansexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: faf2098ad45bc484390beb7752eb136e, type: 2}
+    - rid: 5765507093379940396
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9dfc75763f78ed24092240355bb3a822|Assets/Wolfe's Pride Pins/Materials/Round/Pansexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 9dfc75763f78ed24092240355bb3a822, type: 2}
+    - rid: 5765507093379940397
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 041d4c1bf8b565649a939c9c0fc8903c|Assets/Wolfe's Pride Pins/Materials/Hexa/Phil
+            Pride.mat
+          objRef: {fileID: 2100000, guid: 041d4c1bf8b565649a939c9c0fc8903c, type: 2}
+    - rid: 5765507093379940398
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 47f777c373bf5634f864954902f906ec|Assets/Wolfe's Pride Pins/Materials/Rect/Phil
+            Pride.mat
+          objRef: {fileID: 2100000, guid: 47f777c373bf5634f864954902f906ec, type: 2}
+    - rid: 5765507093379940399
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7e2da860396fd81428a6575b6d886111|Assets/Wolfe's Pride Pins/Materials/Round/Phil
+            Pride.mat
+          objRef: {fileID: 2100000, guid: 7e2da860396fd81428a6575b6d886111, type: 2}
+    - rid: 5765507093379940400
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: c98f476bd97c58b4db15016d27c8f571|Assets/Wolfe's Pride Pins/Materials/Hexa/Polyamory
+            Flag.mat
+          objRef: {fileID: 2100000, guid: c98f476bd97c58b4db15016d27c8f571, type: 2}
+    - rid: 5765507093379940401
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e6156a49461e9f441a34ee8ed7bb60a8|Assets/Wolfe's Pride Pins/Materials/Rect/Polyamory
+            Pride.mat
+          objRef: {fileID: 2100000, guid: e6156a49461e9f441a34ee8ed7bb60a8, type: 2}
+    - rid: 5765507093379940402
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 67c6cd2a591ea134f8c87a30f4c808d4|Assets/Wolfe's Pride Pins/Materials/Round/Polyamory
+            Pride.mat
+          objRef: {fileID: 2100000, guid: 67c6cd2a591ea134f8c87a30f4c808d4, type: 2}
+    - rid: 5765507093379940403
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7c5531c291e8ece4087fe48e441fe44b|Assets/Wolfe's Pride Pins/Materials/Hexa/PolySexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 7c5531c291e8ece4087fe48e441fe44b, type: 2}
+    - rid: 5765507093379940404
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: f5a5b5084588da8499f1449443a239f6|Assets/Wolfe's Pride Pins/Materials/Rect/Polysexual.mat
+          objRef: {fileID: 2100000, guid: f5a5b5084588da8499f1449443a239f6, type: 2}
+    - rid: 5765507093379940405
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: d14602212d1d0b544a237c6dbda0f020|Assets/Wolfe's Pride Pins/Materials/Round/polysexual.mat
+          objRef: {fileID: 2100000, guid: d14602212d1d0b544a237c6dbda0f020, type: 2}
+    - rid: 5765507093379940406
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6e02e241c3a886e47b249c8bd2118c39|Assets/Wolfe's Pride Pins/Materials/Hexa/Progress
+            Pride.mat
+          objRef: {fileID: 2100000, guid: 6e02e241c3a886e47b249c8bd2118c39, type: 2}
+    - rid: 5765507093379940407
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2dded990da060c3469f89bbe22cf99a9|Assets/Wolfe's Pride Pins/Materials/Rect/Progress
+            Pride.mat
+          objRef: {fileID: 2100000, guid: 2dded990da060c3469f89bbe22cf99a9, type: 2}
+    - rid: 5765507093379940408
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: dddbdeee5609a1841a309a82e8e04df2|Assets/Wolfe's Pride Pins/Materials/Round/Progress
+            Pride.mat
+          objRef: {fileID: 2100000, guid: dddbdeee5609a1841a309a82e8e04df2, type: 2}
+    - rid: 5765507093379940409
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1babed50022a19d4d90ddecd4a0b581b|Assets/Wolfe's Pride Pins/Materials/Hexa/Rainbow
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 1babed50022a19d4d90ddecd4a0b581b, type: 2}
+    - rid: 5765507093379940410
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 8ab6fff22a859d443b6d7be71b08b763|Assets/Wolfe's Pride Pins/Materials/Rect/RAinbow
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 8ab6fff22a859d443b6d7be71b08b763, type: 2}
+    - rid: 5765507093379940411
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a5b4c8a590b9bca4c9ed8517f98dadfb|Assets/Wolfe's Pride Pins/Materials/Round/Rainbow
+            Flag.mat
+          objRef: {fileID: 2100000, guid: a5b4c8a590b9bca4c9ed8517f98dadfb, type: 2}
+    - rid: 5765507093379940412
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 07ec9e7e2dc9982429851402c626b12b|Assets/Wolfe's Pride Pins/Materials/Hexa/Trans
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 07ec9e7e2dc9982429851402c626b12b, type: 2}
+    - rid: 5765507093379940413
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 77d62001be2aab7488c161c6c2e97c3f|Assets/Wolfe's Pride Pins/Materials/Rect/Trans
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 77d62001be2aab7488c161c6c2e97c3f, type: 2}
+    - rid: 5765507093379940414
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: c5cd6b08bbcfc8b448054c562a4b853d|Assets/Wolfe's Pride Pins/Materials/Round/Trans
+            Flag.mat
+          objRef: {fileID: 2100000, guid: c5cd6b08bbcfc8b448054c562a4b853d, type: 2}
+    - rid: 5765507093379940415
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2481126629788815264}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: cf9f8051f8e414942827f093beeaec37|Assets/Wolfe's Pride Pins/Materials/Hexa/TwoSpirit.mat
+          objRef: {fileID: 2100000, guid: cf9f8051f8e414942827f093beeaec37, type: 2}
+    - rid: 5765507093379940416
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3097704795878173989}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ae4afd8fdb143e34382ecdf200d213ad|Assets/Wolfe's Pride Pins/Materials/Rect/Twospirit.mat
+          objRef: {fileID: 2100000, guid: ae4afd8fdb143e34382ecdf200d213ad, type: 2}
+    - rid: 5765507093379940417
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 737075154348723238}
+        materialIndex: 1
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 867cb0f622c39c949a6f6155aecd9be4|Assets/Wolfe's Pride Pins/Materials/Round/twospirit.mat
+          objRef: {fileID: 2100000, guid: 867cb0f622c39c949a6f6155aecd9be4, type: 2}
+--- !u!114 &6941887946728647148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394670950027048712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4043009293657833498
+  references:
+    version: 2
+    RefIds:
+    - rid: 4043009293657833498
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Wolfe's Pride Pin/Flag 2
+        state:
+          actions:
+          - rid: 4043009293657833499
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6e661bf5e01cb6541a92b3251ff58990|Assets/Wolfe's Pride Pins/Textures/2.png
+          objRef: {fileID: 2800000, guid: 6e661bf5e01cb6541a92b3251ff58990, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 4043009293657833499
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - rid: 4043009293657833500
+            - rid: 4043009293657833525
+        - state:
+            actions:
+            - rid: 4043009293657833501
+            - rid: 4043009293657833526
+        - state:
+            actions:
+            - rid: 4043009293657833502
+            - rid: 4043009293657833527
+        - state:
+            actions:
+            - rid: 4043009293657833503
+            - rid: 4043009293657833528
+        - state:
+            actions:
+            - rid: 4043009293657833504
+            - rid: 4043009293657833529
+        - state:
+            actions:
+            - rid: 4043009293657833505
+            - rid: 4043009293657833530
+        - state:
+            actions:
+            - rid: 4043009293657833506
+            - rid: 4043009293657833531
+        - state:
+            actions:
+            - rid: 4043009293657833507
+            - rid: 4043009293657833532
+        - state:
+            actions:
+            - rid: 4043009293657833508
+            - rid: 4043009293657833533
+        - state:
+            actions:
+            - rid: 4043009293657833509
+            - rid: 4043009293657833534
+        - state:
+            actions:
+            - rid: 4043009293657833510
+            - rid: 4043009293657833535
+        - state:
+            actions:
+            - rid: 4043009293657833512
+            - rid: 4043009293657833536
+        - state:
+            actions:
+            - rid: 4043009293657833513
+            - rid: 4043009293657833537
+        - state:
+            actions:
+            - rid: 4043009293657833514
+            - rid: 4043009293657833538
+        - state:
+            actions:
+            - rid: 4043009293657833515
+            - rid: 4043009293657833539
+        - state:
+            actions:
+            - rid: 4043009293657833516
+            - rid: 4043009293657833540
+        - state:
+            actions:
+            - rid: 4043009293657833517
+            - rid: 4043009293657833541
+        - state:
+            actions:
+            - rid: 4043009293657833518
+            - rid: 4043009293657833542
+        - state:
+            actions:
+            - rid: 4043009293657833519
+            - rid: 4043009293657833543
+        - state:
+            actions:
+            - rid: 4043009293657833520
+            - rid: 4043009293657833544
+        - state:
+            actions:
+            - rid: 4043009293657833521
+            - rid: 4043009293657833545
+        - state:
+            actions:
+            - rid: 4043009293657833522
+            - rid: 4043009293657833546
+        - state:
+            actions:
+            - rid: 4043009293657833523
+            - rid: 4043009293657833547
+        - state:
+            actions:
+            - rid: 4043009293657833524
+            - rid: 4043009293657833548
+    - rid: 4043009293657833500
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3f56a721b8fff874dbb9943cb14d6a2c|Assets/Wolfe's Pride Pins/Materials/Interlock/Agender.mat
+          objRef: {fileID: 2100000, guid: 3f56a721b8fff874dbb9943cb14d6a2c, type: 2}
+    - rid: 4043009293657833501
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: df874aae8a715f143884a2a384ffe80d|Assets/Wolfe's Pride Pins/Materials/Interlock/Ally.mat
+          objRef: {fileID: 2100000, guid: df874aae8a715f143884a2a384ffe80d, type: 2}
+    - rid: 4043009293657833502
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9df426eaf343f6c45ab402e29ff8be49|Assets/Wolfe's Pride Pins/Materials/Interlock/Aroace.mat
+          objRef: {fileID: 2100000, guid: 9df426eaf343f6c45ab402e29ff8be49, type: 2}
+    - rid: 4043009293657833503
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2ee7bcdc8a4b96e4fa56a55394b6d579|Assets/Wolfe's Pride Pins/Materials/Interlock/Aromantic.mat
+          objRef: {fileID: 2100000, guid: 2ee7bcdc8a4b96e4fa56a55394b6d579, type: 2}
+    - rid: 4043009293657833504
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4dbcf46dab0b4354bbd404eaa7662ded|Assets/Wolfe's Pride Pins/Materials/Interlock/Asexual.mat
+          objRef: {fileID: 2100000, guid: 4dbcf46dab0b4354bbd404eaa7662ded, type: 2}
+    - rid: 4043009293657833505
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1a2edcebc03e06041ad1a68c2682e5c2|Assets/Wolfe's Pride Pins/Materials/Interlock/Bisexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 1a2edcebc03e06041ad1a68c2682e5c2, type: 2}
+    - rid: 4043009293657833506
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3c63e771b4611864da25fd91d49f6343|Assets/Wolfe's Pride Pins/Materials/Interlock/Butch
+            Les.mat
+          objRef: {fileID: 2100000, guid: 3c63e771b4611864da25fd91d49f6343, type: 2}
+    - rid: 4043009293657833507
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 40d934475d1a30d4f95aa7ca966a390d|Assets/Wolfe's Pride Pins/Materials/Interlock/Demiromantic
+            flag.mat
+          objRef: {fileID: 2100000, guid: 40d934475d1a30d4f95aa7ca966a390d, type: 2}
+    - rid: 4043009293657833508
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ed41a6c93600eb24c988fdbf16b998c3|Assets/Wolfe's Pride Pins/Materials/Interlock/Demisexual.mat
+          objRef: {fileID: 2100000, guid: ed41a6c93600eb24c988fdbf16b998c3, type: 2}
+    - rid: 4043009293657833509
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2f66d51610d236a4b8e4850648530087|Assets/Wolfe's Pride Pins/Materials/Interlock/Gay
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 2f66d51610d236a4b8e4850648530087, type: 2}
+    - rid: 4043009293657833510
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04a0ccb2cb0c1d84e845ee52c4c9fe93|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderfluid.mat
+          objRef: {fileID: 2100000, guid: 04a0ccb2cb0c1d84e845ee52c4c9fe93, type: 2}
+    - rid: 4043009293657833512
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04b088655788b434cbce93acec600d8a|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderqueer.mat
+          objRef: {fileID: 2100000, guid: 04b088655788b434cbce93acec600d8a, type: 2}
+    - rid: 4043009293657833513
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 66496a04481be0544842054e758e5ea6|Assets/Wolfe's Pride Pins/Materials/Interlock/IIProgress
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 66496a04481be0544842054e758e5ea6, type: 2}
+    - rid: 4043009293657833514
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9d3fd105ebb62b24f9ce9c0694a1e339|Assets/Wolfe's Pride Pins/Materials/Interlock/Intersex.mat
+          objRef: {fileID: 2100000, guid: 9d3fd105ebb62b24f9ce9c0694a1e339, type: 2}
+    - rid: 4043009293657833515
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3a63435241414c44f8ac4f959efa38a5|Assets/Wolfe's Pride Pins/Materials/Interlock/Les
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 3a63435241414c44f8ac4f959efa38a5, type: 2}
+    - rid: 4043009293657833516
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e7d43bcfae5b4e4409c1f1c8ac9a1cd2|Assets/Wolfe's Pride Pins/Materials/Interlock/NonBinary
+            Flag.mat
+          objRef: {fileID: 2100000, guid: e7d43bcfae5b4e4409c1f1c8ac9a1cd2, type: 2}
+    - rid: 4043009293657833517
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bd5e34f1a1fc1e643a32374295b8c1c9|Assets/Wolfe's Pride Pins/Materials/Interlock/Pansexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: bd5e34f1a1fc1e643a32374295b8c1c9, type: 2}
+    - rid: 4043009293657833518
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: dd825fe6c38c686448c962a9dc3ecaf1|Assets/Wolfe's Pride Pins/Materials/Interlock/Phil
+            Pride.mat
+          objRef: {fileID: 2100000, guid: dd825fe6c38c686448c962a9dc3ecaf1, type: 2}
+    - rid: 4043009293657833519
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7c00aa70997f95d4b84cbed3e73817b5|Assets/Wolfe's Pride Pins/Materials/Interlock/Polyamory
+            pride.mat
+          objRef: {fileID: 2100000, guid: 7c00aa70997f95d4b84cbed3e73817b5, type: 2}
+    - rid: 4043009293657833520
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6794ae1564accdb438b4266cfe453e43|Assets/Wolfe's Pride Pins/Materials/Interlock/Polysexual.mat
+          objRef: {fileID: 2100000, guid: 6794ae1564accdb438b4266cfe453e43, type: 2}
+    - rid: 4043009293657833521
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e9e617867a6b13442b2b17216150727d|Assets/Wolfe's Pride Pins/Materials/Interlock/Progress
+            Pride.mat
+          objRef: {fileID: 2100000, guid: e9e617867a6b13442b2b17216150727d, type: 2}
+    - rid: 4043009293657833522
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 148e2b79508482d47994c1798ed366ab|Assets/Wolfe's Pride Pins/Materials/Interlock/Rainbow
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 148e2b79508482d47994c1798ed366ab, type: 2}
+    - rid: 4043009293657833523
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: affc9ef4dc14e4544be8bd08fd50ed97|Assets/Wolfe's Pride Pins/Materials/Interlock/Trans
+            Flag.mat
+          objRef: {fileID: 2100000, guid: affc9ef4dc14e4544be8bd08fd50ed97, type: 2}
+    - rid: 4043009293657833524
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: febb77fe7512f134eb275eb4c87f21a1|Assets/Wolfe's Pride Pins/Materials/Interlock/TwoSpirit.mat
+          objRef: {fileID: 2100000, guid: febb77fe7512f134eb275eb4c87f21a1, type: 2}
+    - rid: 4043009293657833525
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3f56a721b8fff874dbb9943cb14d6a2c|Assets/Wolfe's Pride Pins/Materials/Interlock/Agender.mat
+          objRef: {fileID: 2100000, guid: 3f56a721b8fff874dbb9943cb14d6a2c, type: 2}
+    - rid: 4043009293657833526
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: df874aae8a715f143884a2a384ffe80d|Assets/Wolfe's Pride Pins/Materials/Interlock/Ally.mat
+          objRef: {fileID: 2100000, guid: df874aae8a715f143884a2a384ffe80d, type: 2}
+    - rid: 4043009293657833527
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9df426eaf343f6c45ab402e29ff8be49|Assets/Wolfe's Pride Pins/Materials/Interlock/Aroace.mat
+          objRef: {fileID: 2100000, guid: 9df426eaf343f6c45ab402e29ff8be49, type: 2}
+    - rid: 4043009293657833528
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2ee7bcdc8a4b96e4fa56a55394b6d579|Assets/Wolfe's Pride Pins/Materials/Interlock/Aromantic.mat
+          objRef: {fileID: 2100000, guid: 2ee7bcdc8a4b96e4fa56a55394b6d579, type: 2}
+    - rid: 4043009293657833529
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4dbcf46dab0b4354bbd404eaa7662ded|Assets/Wolfe's Pride Pins/Materials/Interlock/Asexual.mat
+          objRef: {fileID: 2100000, guid: 4dbcf46dab0b4354bbd404eaa7662ded, type: 2}
+    - rid: 4043009293657833530
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1a2edcebc03e06041ad1a68c2682e5c2|Assets/Wolfe's Pride Pins/Materials/Interlock/Bisexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 1a2edcebc03e06041ad1a68c2682e5c2, type: 2}
+    - rid: 4043009293657833531
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3c63e771b4611864da25fd91d49f6343|Assets/Wolfe's Pride Pins/Materials/Interlock/Butch
+            Les.mat
+          objRef: {fileID: 2100000, guid: 3c63e771b4611864da25fd91d49f6343, type: 2}
+    - rid: 4043009293657833532
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 40d934475d1a30d4f95aa7ca966a390d|Assets/Wolfe's Pride Pins/Materials/Interlock/Demiromantic
+            flag.mat
+          objRef: {fileID: 2100000, guid: 40d934475d1a30d4f95aa7ca966a390d, type: 2}
+    - rid: 4043009293657833533
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ed41a6c93600eb24c988fdbf16b998c3|Assets/Wolfe's Pride Pins/Materials/Interlock/Demisexual.mat
+          objRef: {fileID: 2100000, guid: ed41a6c93600eb24c988fdbf16b998c3, type: 2}
+    - rid: 4043009293657833534
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2f66d51610d236a4b8e4850648530087|Assets/Wolfe's Pride Pins/Materials/Interlock/Gay
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 2f66d51610d236a4b8e4850648530087, type: 2}
+    - rid: 4043009293657833535
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04a0ccb2cb0c1d84e845ee52c4c9fe93|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderfluid.mat
+          objRef: {fileID: 2100000, guid: 04a0ccb2cb0c1d84e845ee52c4c9fe93, type: 2}
+    - rid: 4043009293657833536
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04b088655788b434cbce93acec600d8a|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderqueer.mat
+          objRef: {fileID: 2100000, guid: 04b088655788b434cbce93acec600d8a, type: 2}
+    - rid: 4043009293657833537
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 66496a04481be0544842054e758e5ea6|Assets/Wolfe's Pride Pins/Materials/Interlock/IIProgress
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 66496a04481be0544842054e758e5ea6, type: 2}
+    - rid: 4043009293657833538
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9d3fd105ebb62b24f9ce9c0694a1e339|Assets/Wolfe's Pride Pins/Materials/Interlock/Intersex.mat
+          objRef: {fileID: 2100000, guid: 9d3fd105ebb62b24f9ce9c0694a1e339, type: 2}
+    - rid: 4043009293657833539
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3a63435241414c44f8ac4f959efa38a5|Assets/Wolfe's Pride Pins/Materials/Interlock/Les
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 3a63435241414c44f8ac4f959efa38a5, type: 2}
+    - rid: 4043009293657833540
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e7d43bcfae5b4e4409c1f1c8ac9a1cd2|Assets/Wolfe's Pride Pins/Materials/Interlock/NonBinary
+            Flag.mat
+          objRef: {fileID: 2100000, guid: e7d43bcfae5b4e4409c1f1c8ac9a1cd2, type: 2}
+    - rid: 4043009293657833541
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bd5e34f1a1fc1e643a32374295b8c1c9|Assets/Wolfe's Pride Pins/Materials/Interlock/Pansexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: bd5e34f1a1fc1e643a32374295b8c1c9, type: 2}
+    - rid: 4043009293657833542
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: dd825fe6c38c686448c962a9dc3ecaf1|Assets/Wolfe's Pride Pins/Materials/Interlock/Phil
+            Pride.mat
+          objRef: {fileID: 2100000, guid: dd825fe6c38c686448c962a9dc3ecaf1, type: 2}
+    - rid: 4043009293657833543
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7c00aa70997f95d4b84cbed3e73817b5|Assets/Wolfe's Pride Pins/Materials/Interlock/Polyamory
+            pride.mat
+          objRef: {fileID: 2100000, guid: 7c00aa70997f95d4b84cbed3e73817b5, type: 2}
+    - rid: 4043009293657833544
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6794ae1564accdb438b4266cfe453e43|Assets/Wolfe's Pride Pins/Materials/Interlock/Polysexual.mat
+          objRef: {fileID: 2100000, guid: 6794ae1564accdb438b4266cfe453e43, type: 2}
+    - rid: 4043009293657833545
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e9e617867a6b13442b2b17216150727d|Assets/Wolfe's Pride Pins/Materials/Interlock/Progress
+            Pride.mat
+          objRef: {fileID: 2100000, guid: e9e617867a6b13442b2b17216150727d, type: 2}
+    - rid: 4043009293657833546
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 148e2b79508482d47994c1798ed366ab|Assets/Wolfe's Pride Pins/Materials/Interlock/Rainbow
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 148e2b79508482d47994c1798ed366ab, type: 2}
+    - rid: 4043009293657833547
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: affc9ef4dc14e4544be8bd08fd50ed97|Assets/Wolfe's Pride Pins/Materials/Interlock/Trans
+            Flag.mat
+          objRef: {fileID: 2100000, guid: affc9ef4dc14e4544be8bd08fd50ed97, type: 2}
+    - rid: 4043009293657833548
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7493000555805435762}
+        materialIndex: 2
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: febb77fe7512f134eb275eb4c87f21a1|Assets/Wolfe's Pride Pins/Materials/Interlock/TwoSpirit.mat
+          objRef: {fileID: 2100000, guid: febb77fe7512f134eb275eb4c87f21a1, type: 2}
+--- !u!114 &52886572906446032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394670950027048712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4043009293657833498
+  references:
+    version: 2
+    RefIds:
+    - rid: 4043009293657833498
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Wolfe's Pride Pin/Flag 3
+        state:
+          actions:
+          - rid: 4043009293657833499
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 733985d9e4f9ff24cb311af84dfc4a55|Assets/Wolfe's Pride Pins/Textures/3.png
+          objRef: {fileID: 2800000, guid: 733985d9e4f9ff24cb311af84dfc4a55, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 4043009293657833499
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - rid: 4043009293657833500
+        - state:
+            actions:
+            - rid: 4043009293657833501
+        - state:
+            actions:
+            - rid: 4043009293657833502
+        - state:
+            actions:
+            - rid: 4043009293657833503
+        - state:
+            actions:
+            - rid: 4043009293657833504
+        - state:
+            actions:
+            - rid: 4043009293657833505
+        - state:
+            actions:
+            - rid: 4043009293657833506
+        - state:
+            actions:
+            - rid: 4043009293657833507
+        - state:
+            actions:
+            - rid: 4043009293657833508
+        - state:
+            actions:
+            - rid: 4043009293657833509
+        - state:
+            actions:
+            - rid: 4043009293657833510
+        - state:
+            actions:
+            - rid: 4043009293657833512
+        - state:
+            actions:
+            - rid: 4043009293657833513
+        - state:
+            actions:
+            - rid: 4043009293657833514
+        - state:
+            actions:
+            - rid: 4043009293657833515
+        - state:
+            actions:
+            - rid: 4043009293657833516
+        - state:
+            actions:
+            - rid: 4043009293657833517
+        - state:
+            actions:
+            - rid: 4043009293657833518
+        - state:
+            actions:
+            - rid: 4043009293657833519
+        - state:
+            actions:
+            - rid: 4043009293657833520
+        - state:
+            actions:
+            - rid: 4043009293657833521
+        - state:
+            actions:
+            - rid: 4043009293657833522
+        - state:
+            actions:
+            - rid: 4043009293657833523
+        - state:
+            actions:
+            - rid: 4043009293657833524
+    - rid: 4043009293657833500
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3f56a721b8fff874dbb9943cb14d6a2c|Assets/Wolfe's Pride Pins/Materials/Interlock/Agender.mat
+          objRef: {fileID: 2100000, guid: 3f56a721b8fff874dbb9943cb14d6a2c, type: 2}
+    - rid: 4043009293657833501
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: df874aae8a715f143884a2a384ffe80d|Assets/Wolfe's Pride Pins/Materials/Interlock/Ally.mat
+          objRef: {fileID: 2100000, guid: df874aae8a715f143884a2a384ffe80d, type: 2}
+    - rid: 4043009293657833502
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9df426eaf343f6c45ab402e29ff8be49|Assets/Wolfe's Pride Pins/Materials/Interlock/Aroace.mat
+          objRef: {fileID: 2100000, guid: 9df426eaf343f6c45ab402e29ff8be49, type: 2}
+    - rid: 4043009293657833503
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2ee7bcdc8a4b96e4fa56a55394b6d579|Assets/Wolfe's Pride Pins/Materials/Interlock/Aromantic.mat
+          objRef: {fileID: 2100000, guid: 2ee7bcdc8a4b96e4fa56a55394b6d579, type: 2}
+    - rid: 4043009293657833504
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4dbcf46dab0b4354bbd404eaa7662ded|Assets/Wolfe's Pride Pins/Materials/Interlock/Asexual.mat
+          objRef: {fileID: 2100000, guid: 4dbcf46dab0b4354bbd404eaa7662ded, type: 2}
+    - rid: 4043009293657833505
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1a2edcebc03e06041ad1a68c2682e5c2|Assets/Wolfe's Pride Pins/Materials/Interlock/Bisexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 1a2edcebc03e06041ad1a68c2682e5c2, type: 2}
+    - rid: 4043009293657833506
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3c63e771b4611864da25fd91d49f6343|Assets/Wolfe's Pride Pins/Materials/Interlock/Butch
+            Les.mat
+          objRef: {fileID: 2100000, guid: 3c63e771b4611864da25fd91d49f6343, type: 2}
+    - rid: 4043009293657833507
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 40d934475d1a30d4f95aa7ca966a390d|Assets/Wolfe's Pride Pins/Materials/Interlock/Demiromantic
+            flag.mat
+          objRef: {fileID: 2100000, guid: 40d934475d1a30d4f95aa7ca966a390d, type: 2}
+    - rid: 4043009293657833508
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ed41a6c93600eb24c988fdbf16b998c3|Assets/Wolfe's Pride Pins/Materials/Interlock/Demisexual.mat
+          objRef: {fileID: 2100000, guid: ed41a6c93600eb24c988fdbf16b998c3, type: 2}
+    - rid: 4043009293657833509
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2f66d51610d236a4b8e4850648530087|Assets/Wolfe's Pride Pins/Materials/Interlock/Gay
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 2f66d51610d236a4b8e4850648530087, type: 2}
+    - rid: 4043009293657833510
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04a0ccb2cb0c1d84e845ee52c4c9fe93|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderfluid.mat
+          objRef: {fileID: 2100000, guid: 04a0ccb2cb0c1d84e845ee52c4c9fe93, type: 2}
+    - rid: 4043009293657833512
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 04b088655788b434cbce93acec600d8a|Assets/Wolfe's Pride Pins/Materials/Interlock/Genderqueer.mat
+          objRef: {fileID: 2100000, guid: 04b088655788b434cbce93acec600d8a, type: 2}
+    - rid: 4043009293657833513
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 66496a04481be0544842054e758e5ea6|Assets/Wolfe's Pride Pins/Materials/Interlock/IIProgress
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 66496a04481be0544842054e758e5ea6, type: 2}
+    - rid: 4043009293657833514
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9d3fd105ebb62b24f9ce9c0694a1e339|Assets/Wolfe's Pride Pins/Materials/Interlock/Intersex.mat
+          objRef: {fileID: 2100000, guid: 9d3fd105ebb62b24f9ce9c0694a1e339, type: 2}
+    - rid: 4043009293657833515
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3a63435241414c44f8ac4f959efa38a5|Assets/Wolfe's Pride Pins/Materials/Interlock/Les
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 3a63435241414c44f8ac4f959efa38a5, type: 2}
+    - rid: 4043009293657833516
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e7d43bcfae5b4e4409c1f1c8ac9a1cd2|Assets/Wolfe's Pride Pins/Materials/Interlock/NonBinary
+            Flag.mat
+          objRef: {fileID: 2100000, guid: e7d43bcfae5b4e4409c1f1c8ac9a1cd2, type: 2}
+    - rid: 4043009293657833517
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bd5e34f1a1fc1e643a32374295b8c1c9|Assets/Wolfe's Pride Pins/Materials/Interlock/Pansexual
+            Flag.mat
+          objRef: {fileID: 2100000, guid: bd5e34f1a1fc1e643a32374295b8c1c9, type: 2}
+    - rid: 4043009293657833518
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: dd825fe6c38c686448c962a9dc3ecaf1|Assets/Wolfe's Pride Pins/Materials/Interlock/Phil
+            Pride.mat
+          objRef: {fileID: 2100000, guid: dd825fe6c38c686448c962a9dc3ecaf1, type: 2}
+    - rid: 4043009293657833519
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7c00aa70997f95d4b84cbed3e73817b5|Assets/Wolfe's Pride Pins/Materials/Interlock/Polyamory
+            pride.mat
+          objRef: {fileID: 2100000, guid: 7c00aa70997f95d4b84cbed3e73817b5, type: 2}
+    - rid: 4043009293657833520
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6794ae1564accdb438b4266cfe453e43|Assets/Wolfe's Pride Pins/Materials/Interlock/Polysexual.mat
+          objRef: {fileID: 2100000, guid: 6794ae1564accdb438b4266cfe453e43, type: 2}
+    - rid: 4043009293657833521
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e9e617867a6b13442b2b17216150727d|Assets/Wolfe's Pride Pins/Materials/Interlock/Progress
+            Pride.mat
+          objRef: {fileID: 2100000, guid: e9e617867a6b13442b2b17216150727d, type: 2}
+    - rid: 4043009293657833522
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 148e2b79508482d47994c1798ed366ab|Assets/Wolfe's Pride Pins/Materials/Interlock/Rainbow
+            Flag.mat
+          objRef: {fileID: 2100000, guid: 148e2b79508482d47994c1798ed366ab, type: 2}
+    - rid: 4043009293657833523
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: affc9ef4dc14e4544be8bd08fd50ed97|Assets/Wolfe's Pride Pins/Materials/Interlock/Trans
+            Flag.mat
+          objRef: {fileID: 2100000, guid: affc9ef4dc14e4544be8bd08fd50ed97, type: 2}
+    - rid: 4043009293657833524
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3705891904946046990}
+        materialIndex: 3
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: febb77fe7512f134eb275eb4c87f21a1|Assets/Wolfe's Pride Pins/Materials/Interlock/TwoSpirit.mat
+          objRef: {fileID: 2100000, guid: febb77fe7512f134eb275eb4c87f21a1, type: 2}
+--- !u!114 &1993154595142487515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394670950027048712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4043009293657833549
+  references:
+    version: 2
+    RefIds:
+    - rid: 4043009293657833549
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Wolfe's Pride Pin
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bdab50a45e048db4ab80f3c7a61b9e1f|Assets/Wolfe's Pride Pins/Textures/flag.png
+          objRef: {fileID: 2800000, guid: bdab50a45e048db4ab80f3c7a61b9e1f, type: 3}
+--- !u!1001 &130478568863279598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5095757922781547411}
+    m_Modifications:
+    - target: {fileID: 720032950227969101, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_Name
+      value: Tri-Interlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 720032950227969101, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648606864199623136, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f66d51610d236a4b8e4850648530087, type: 2}
+    - target: {fileID: 3648606864199623136, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 40d934475d1a30d4f95aa7ca966a390d, type: 2}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac99268fd164d0140a37b0e780672ed5, type: 3}
+--- !u!1 &590428631991291299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 720032950227969101, guid: ac99268fd164d0140a37b0e780672ed5,
+    type: 3}
+  m_PrefabInstance: {fileID: 130478568863279598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3705891904946046990 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3648606864199623136, guid: ac99268fd164d0140a37b0e780672ed5,
+    type: 3}
+  m_PrefabInstance: {fileID: 130478568863279598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4144709770276829215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4056470041499357681, guid: ac99268fd164d0140a37b0e780672ed5,
+    type: 3}
+  m_PrefabInstance: {fileID: 130478568863279598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &190469203304854626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5095757922781547411}
+    m_Modifications:
+    - target: {fileID: 620990190069741636, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: dee9f68b2fd1fd54eb978d0ddbc810e4, type: 2}
+    - target: {fileID: 1732854757260717514, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_Name
+      value: Round
+      objectReference: {fileID: 0}
+    - target: {fileID: 1732854757260717514, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a4b934ca0c5342843ac0da440ada0d25, type: 3}
+--- !u!23 &737075154348723238 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 620990190069741636, guid: a4b934ca0c5342843ac0da440ada0d25,
+    type: 3}
+  m_PrefabInstance: {fileID: 190469203304854626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1921058483914791336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1732854757260717514, guid: a4b934ca0c5342843ac0da440ada0d25,
+    type: 3}
+  m_PrefabInstance: {fileID: 190469203304854626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7721669368940680083 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7605541670374500337, guid: a4b934ca0c5342843ac0da440ada0d25,
+    type: 3}
+  m_PrefabInstance: {fileID: 190469203304854626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &213612952054914060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5095757922781547411}
+    m_Modifications:
+    - target: {fileID: 2885582232057049385, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: fdd07f69b9eccf44a9fbb1a456f8abca, type: 2}
+    - target: {fileID: 3166690676673384332, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_Name
+      value: Rectangle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166690676673384332, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c21849f7eedfcf438e0950d13ebf916, type: 3}
+--- !u!1 &2955698076583416704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3166690676673384332, guid: 2c21849f7eedfcf438e0950d13ebf916,
+    type: 3}
+  m_PrefabInstance: {fileID: 213612952054914060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3097704795878173989 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2885582232057049385, guid: 2c21849f7eedfcf438e0950d13ebf916,
+    type: 3}
+  m_PrefabInstance: {fileID: 213612952054914060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5780350126803374465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5963058417799531917, guid: 2c21849f7eedfcf438e0950d13ebf916,
+    type: 3}
+  m_PrefabInstance: {fileID: 213612952054914060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &495068169903881867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5095757922781547411}
+    m_Modifications:
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409590999422503971, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_Name
+      value: Interlocking
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409590999422503971, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999343339571993081, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e9e617867a6b13442b2b17216150727d, type: 2}
+    - target: {fileID: 6999343339571993081, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: bd5e34f1a1fc1e643a32374295b8c1c9, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 571753efd2d9cff4483b91cb4c2d6e76, type: 3}
+--- !u!4 &555370362879942272 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 102394802007711755, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+    type: 3}
+  m_PrefabInstance: {fileID: 495068169903881867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1536020402748502696 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1409590999422503971, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+    type: 3}
+  m_PrefabInstance: {fileID: 495068169903881867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7493000555805435762 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6999343339571993081, guid: 571753efd2d9cff4483b91cb4c2d6e76,
+    type: 3}
+  m_PrefabInstance: {fileID: 495068169903881867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4659966180332909745
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5095757922781547411}
+    m_Modifications:
+    - target: {fileID: 3353702628784480390, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_Name
+      value: Hexagon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353702628784480390, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117161904107207441, guid: 6635bfe70aca1dd429762586593efc24,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fa6e9aeb1b7a704c84d2ff716046134, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6635bfe70aca1dd429762586593efc24, type: 3}
+--- !u!23 &2481126629788815264 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7117161904107207441, guid: 6635bfe70aca1dd429762586593efc24,
+    type: 3}
+  m_PrefabInstance: {fileID: 4659966180332909745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7935685902488933431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3353702628784480390, guid: 6635bfe70aca1dd429762586593efc24,
+    type: 3}
+  m_PrefabInstance: {fileID: 4659966180332909745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8356260620214883857 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3701079626155418272, guid: 6635bfe70aca1dd429762586593efc24,
+    type: 3}
+  m_PrefabInstance: {fileID: 4659966180332909745}
+  m_PrefabAsset: {fileID: 0}
